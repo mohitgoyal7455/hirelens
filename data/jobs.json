@@ -1,0 +1,1308 @@
+{
+ "generatedFor": "demo",
+ "note": "Mock data. postedMinutesAgo is resolved against the current time on load so freshness badges stay meaningful.",
+ "jobs": [
+  {
+   "id": "job-001",
+   "title": "Junior Data Analyst",
+   "company": "Quarkbyte",
+   "department": "Data",
+   "location": "Remote",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    10,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "Statistics",
+    "Python",
+    "Pandas",
+    "Machine Learning"
+   ],
+   "postedMinutesAgo": 19,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-002",
+   "title": "React Developer",
+   "company": "Quarkbyte",
+   "department": "Engineering",
+   "location": "Pune",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    3,
+    6
+   ],
+   "stipendK": null,
+   "skills": [
+    "Git",
+    "JavaScript",
+    "HTML",
+    "REST APIs"
+   ],
+   "postedMinutesAgo": 2453,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-003",
+   "title": "QA Automation Engineer",
+   "company": "Orbit Payments",
+   "department": "Engineering",
+   "location": "Remote",
+   "type": "Full-time",
+   "level": "Mid",
+   "salaryLPA": [
+    4,
+    6
+   ],
+   "stipendK": null,
+   "skills": [
+    "CSS",
+    "React",
+    "Git",
+    "HTML"
+   ],
+   "postedMinutesAgo": 6494,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-004",
+   "title": "Junior DevOps Engineer",
+   "company": "Brightpath",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    8,
+    11
+   ],
+   "stipendK": null,
+   "skills": [
+    "Testing",
+    "HTML",
+    "JavaScript",
+    "React"
+   ],
+   "postedMinutesAgo": 1196,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-005",
+   "title": "Product Designer",
+   "company": "Vertex Health",
+   "department": "Design",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    5,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "Prototyping",
+    "Figma",
+    "User Research",
+    "Accessibility"
+   ],
+   "postedMinutesAgo": 7067,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-006",
+   "title": "Associate Product Designer",
+   "company": "Pixelforge",
+   "department": "Design",
+   "location": "Remote",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "User Research",
+    "Prototyping",
+    "Design Systems",
+    "Accessibility"
+   ],
+   "postedMinutesAgo": 338,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-007",
+   "title": "Associate Product Manager",
+   "company": "Quarkbyte",
+   "department": "Product",
+   "location": "Remote",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    8,
+    14
+   ],
+   "stipendK": null,
+   "skills": [
+    "Roadmapping",
+    "SQL",
+    "Analytics",
+    "Communication"
+   ],
+   "postedMinutesAgo": 814,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-008",
+   "title": "Product Manager",
+   "company": "Brightpath",
+   "department": "Product",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    3,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "Communication",
+    "Roadmapping",
+    "Analytics",
+    "User Research"
+   ],
+   "postedMinutesAgo": 3559,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-009",
+   "title": "Full Stack Developer",
+   "company": "Pixelforge",
+   "department": "Engineering",
+   "location": "Gurugram",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    6,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "Git",
+    "Testing",
+    "React",
+    "HTML"
+   ],
+   "postedMinutesAgo": 6001,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-010",
+   "title": "Associate ML Engineer",
+   "company": "Quarkbyte",
+   "department": "Data",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    4,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "SQL",
+    "Tableau",
+    "Statistics",
+    "Python"
+   ],
+   "postedMinutesAgo": 1386,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-011",
+   "title": "Backend Developer Intern",
+   "company": "Nimbus Cloud",
+   "department": "Engineering",
+   "location": "Pune",
+   "type": "Internship",
+   "level": "Intern",
+   "salaryLPA": null,
+   "stipendK": 25,
+   "skills": [
+    "Accessibility",
+    "Node.js",
+    "CSS",
+    "Testing"
+   ],
+   "postedMinutesAgo": 8921,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-012",
+   "title": "UX Researcher",
+   "company": "Quarkbyte",
+   "department": "Design",
+   "location": "Gurugram",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    6,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "Design Systems",
+    "Figma",
+    "Accessibility",
+    "User Research"
+   ],
+   "postedMinutesAgo": 58,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-013",
+   "title": "Data Analyst Intern",
+   "company": "Northwind Labs",
+   "department": "Data",
+   "location": "Pune",
+   "type": "Internship",
+   "level": "Intern",
+   "salaryLPA": null,
+   "stipendK": 20,
+   "skills": [
+    "Statistics",
+    "Python",
+    "Pandas",
+    "Machine Learning"
+   ],
+   "postedMinutesAgo": 4847,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-014",
+   "title": "Junior ML Engineer",
+   "company": "Saffron Tech",
+   "department": "Data",
+   "location": "Bengaluru",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    5,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "Python",
+    "Machine Learning",
+    "Statistics",
+    "SQL"
+   ],
+   "postedMinutesAgo": 128,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-015",
+   "title": "Associate React Developer",
+   "company": "Orbit Payments",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    6,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "TypeScript",
+    "Testing",
+    "Node.js",
+    "HTML"
+   ],
+   "postedMinutesAgo": 6323,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-016",
+   "title": "Associate React Developer",
+   "company": "Vertex Health",
+   "department": "Engineering",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    4,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "Testing",
+    "Accessibility",
+    "Node.js",
+    "REST APIs"
+   ],
+   "postedMinutesAgo": 62,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-017",
+   "title": "Junior ML Engineer",
+   "company": "Brightpath",
+   "department": "Data",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    8,
+    14
+   ],
+   "stipendK": null,
+   "skills": [
+    "Python",
+    "Tableau",
+    "Pandas",
+    "SQL"
+   ],
+   "postedMinutesAgo": 576,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-018",
+   "title": "Associate Product Manager",
+   "company": "Quarkbyte",
+   "department": "Product",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    6
+   ],
+   "stipendK": null,
+   "skills": [
+    "User Research",
+    "Analytics",
+    "Communication",
+    "Roadmapping"
+   ],
+   "postedMinutesAgo": 1429,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-019",
+   "title": "Associate DevOps Engineer",
+   "company": "Zenith Logistics",
+   "department": "Engineering",
+   "location": "Gurugram",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    10,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "TypeScript",
+    "REST APIs",
+    "CSS",
+    "Accessibility"
+   ],
+   "postedMinutesAgo": 2861,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-020",
+   "title": "ML Engineer",
+   "company": "Indigo Commerce",
+   "department": "Data",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    10,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "SQL",
+    "Tableau",
+    "Python",
+    "Machine Learning"
+   ],
+   "postedMinutesAgo": 3834,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-021",
+   "title": "QA Automation Engineer",
+   "company": "Northwind Labs",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    4,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "HTML",
+    "Testing",
+    "CSS",
+    "TypeScript"
+   ],
+   "postedMinutesAgo": 612,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-022",
+   "title": "Associate Full Stack Developer",
+   "company": "Cobalt Systems",
+   "department": "Engineering",
+   "location": "Pune",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    8,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "Git",
+    "CSS",
+    "JavaScript",
+    "Node.js"
+   ],
+   "postedMinutesAgo": 1118,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-023",
+   "title": "Junior UX Researcher",
+   "company": "Monsoon Media",
+   "department": "Design",
+   "location": "Gurugram",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    8,
+    10
+   ],
+   "stipendK": null,
+   "skills": [
+    "Prototyping",
+    "Figma",
+    "Design Systems",
+    "User Research"
+   ],
+   "postedMinutesAgo": 3411,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-024",
+   "title": "Associate Frontend Developer",
+   "company": "Lumen Analytics",
+   "department": "Engineering",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    5
+   ],
+   "stipendK": null,
+   "skills": [
+    "React",
+    "JavaScript",
+    "HTML",
+    "Accessibility"
+   ],
+   "postedMinutesAgo": 120,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-025",
+   "title": "Associate Product Designer",
+   "company": "Saffron Tech",
+   "department": "Design",
+   "location": "Pune",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    10,
+    14
+   ],
+   "stipendK": null,
+   "skills": [
+    "Accessibility",
+    "Design Systems",
+    "User Research",
+    "Figma"
+   ],
+   "postedMinutesAgo": 711,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-026",
+   "title": "UI Engineer",
+   "company": "Brightpath",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Full-time",
+   "level": "Mid",
+   "salaryLPA": [
+    6,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "TypeScript",
+    "Git",
+    "HTML",
+    "REST APIs"
+   ],
+   "postedMinutesAgo": 176,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-027",
+   "title": "Associate Product Manager",
+   "company": "Saffron Tech",
+   "department": "Product",
+   "location": "Mumbai",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    5,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "Roadmapping",
+    "User Research",
+    "Analytics",
+    "Communication"
+   ],
+   "postedMinutesAgo": 4085,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-028",
+   "title": "ML Engineer",
+   "company": "Brightpath",
+   "department": "Data",
+   "location": "Noida",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    6,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "Python",
+    "Pandas",
+    "Tableau",
+    "SQL"
+   ],
+   "postedMinutesAgo": 8656,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-029",
+   "title": "Frontend Developer",
+   "company": "Orbit Payments",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    8,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "HTML",
+    "TypeScript",
+    "Accessibility",
+    "JavaScript"
+   ],
+   "postedMinutesAgo": 72,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-030",
+   "title": "Junior Backend Developer",
+   "company": "Nimbus Cloud",
+   "department": "Engineering",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    10,
+    14
+   ],
+   "stipendK": null,
+   "skills": [
+    "Testing",
+    "Accessibility",
+    "REST APIs",
+    "Node.js"
+   ],
+   "postedMinutesAgo": 88,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-031",
+   "title": "Junior Product Manager",
+   "company": "Northwind Labs",
+   "department": "Product",
+   "location": "Hyderabad",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    3,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "Roadmapping",
+    "SQL",
+    "Communication",
+    "User Research"
+   ],
+   "postedMinutesAgo": 721,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-032",
+   "title": "Associate Frontend Developer",
+   "company": "Northwind Labs",
+   "department": "Engineering",
+   "location": "Pune",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    5,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "REST APIs"
+   ],
+   "postedMinutesAgo": 550,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-033",
+   "title": "Associate DevOps Engineer",
+   "company": "Orbit Payments",
+   "department": "Engineering",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    5,
+    11
+   ],
+   "stipendK": null,
+   "skills": [
+    "CSS",
+    "React",
+    "Node.js",
+    "Git"
+   ],
+   "postedMinutesAgo": 9,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-034",
+   "title": "Junior Frontend Developer",
+   "company": "Quarkbyte",
+   "department": "Engineering",
+   "location": "Hyderabad",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    4,
+    10
+   ],
+   "stipendK": null,
+   "skills": [
+    "Git",
+    "REST APIs",
+    "Accessibility",
+    "React"
+   ],
+   "postedMinutesAgo": 620,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-035",
+   "title": "Junior Full Stack Developer",
+   "company": "Monsoon Media",
+   "department": "Engineering",
+   "location": "Mumbai",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    5,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "JavaScript",
+    "HTML",
+    "React",
+    "TypeScript"
+   ],
+   "postedMinutesAgo": 2824,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-036",
+   "title": "Associate ML Engineer",
+   "company": "Northwind Labs",
+   "department": "Data",
+   "location": "Gurugram",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    10,
+    14
+   ],
+   "stipendK": null,
+   "skills": [
+    "SQL",
+    "Tableau",
+    "Pandas",
+    "Statistics"
+   ],
+   "postedMinutesAgo": 719,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-037",
+   "title": "Associate UX Researcher",
+   "company": "Lumen Analytics",
+   "department": "Design",
+   "location": "Noida",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "Prototyping",
+    "Figma",
+    "Accessibility",
+    "User Research"
+   ],
+   "postedMinutesAgo": 6009,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-038",
+   "title": "Junior DevOps Engineer",
+   "company": "Quarkbyte",
+   "department": "Engineering",
+   "location": "Noida",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    8,
+    10
+   ],
+   "stipendK": null,
+   "skills": [
+    "HTML",
+    "CSS",
+    "Git",
+    "React"
+   ],
+   "postedMinutesAgo": 986,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-039",
+   "title": "Junior Backend Developer",
+   "company": "Tidewater Soft",
+   "department": "Engineering",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    8,
+    11
+   ],
+   "stipendK": null,
+   "skills": [
+    "Accessibility",
+    "Git",
+    "Node.js",
+    "REST APIs"
+   ],
+   "postedMinutesAgo": 6095,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-040",
+   "title": "Junior QA Automation Engineer",
+   "company": "Indigo Commerce",
+   "department": "Engineering",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    10,
+    16
+   ],
+   "stipendK": null,
+   "skills": [
+    "Testing",
+    "CSS",
+    "JavaScript",
+    "Git"
+   ],
+   "postedMinutesAgo": 180,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-041",
+   "title": "Frontend Developer Intern",
+   "company": "Tidewater Soft",
+   "department": "Engineering",
+   "location": "Noida",
+   "type": "Internship",
+   "level": "Intern",
+   "salaryLPA": null,
+   "stipendK": 15,
+   "skills": [
+    "Git",
+    "REST APIs",
+    "JavaScript",
+    "Node.js"
+   ],
+   "postedMinutesAgo": 1268,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-042",
+   "title": "Backend Developer Intern",
+   "company": "Vertex Health",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Internship",
+   "level": "Intern",
+   "salaryLPA": null,
+   "stipendK": 15,
+   "skills": [
+    "Testing",
+    "HTML",
+    "REST APIs",
+    "CSS"
+   ],
+   "postedMinutesAgo": 5286,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-043",
+   "title": "Junior Full Stack Developer",
+   "company": "Quarkbyte",
+   "department": "Engineering",
+   "location": "Gurugram",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    6,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "Testing"
+   ],
+   "postedMinutesAgo": 481,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-044",
+   "title": "Associate DevOps Engineer",
+   "company": "Northwind Labs",
+   "department": "Engineering",
+   "location": "Gurugram",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "React",
+    "HTML",
+    "TypeScript",
+    "Node.js"
+   ],
+   "postedMinutesAgo": 775,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-045",
+   "title": "Product Designer",
+   "company": "Cobalt Systems",
+   "department": "Design",
+   "location": "Bengaluru",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    3,
+    6
+   ],
+   "stipendK": null,
+   "skills": [
+    "Design Systems",
+    "Figma",
+    "Prototyping",
+    "User Research"
+   ],
+   "postedMinutesAgo": 1217,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-046",
+   "title": "Junior ML Engineer",
+   "company": "Pixelforge",
+   "department": "Data",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    3,
+    5
+   ],
+   "stipendK": null,
+   "skills": [
+    "Statistics",
+    "Pandas",
+    "Tableau",
+    "Python"
+   ],
+   "postedMinutesAgo": 159,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-047",
+   "title": "Associate Product Manager",
+   "company": "Nimbus Cloud",
+   "department": "Product",
+   "location": "Bengaluru",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    6,
+    12
+   ],
+   "stipendK": null,
+   "skills": [
+    "Analytics",
+    "Roadmapping",
+    "Communication",
+    "SQL"
+   ],
+   "postedMinutesAgo": 798,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-048",
+   "title": "Data Analyst",
+   "company": "Northwind Labs",
+   "department": "Data",
+   "location": "Noida",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    3,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "Pandas",
+    "Machine Learning",
+    "Python",
+    "Statistics"
+   ],
+   "postedMinutesAgo": 773,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-049",
+   "title": "React Developer",
+   "company": "Brightpath",
+   "department": "Engineering",
+   "location": "Gurugram",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    8,
+    10
+   ],
+   "stipendK": null,
+   "skills": [
+    "React",
+    "JavaScript",
+    "Accessibility",
+    "Testing"
+   ],
+   "postedMinutesAgo": 18,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-050",
+   "title": "Backend Developer",
+   "company": "Vertex Health",
+   "department": "Engineering",
+   "location": "Gurugram",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    4,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "JavaScript",
+    "Git",
+    "TypeScript",
+    "Node.js"
+   ],
+   "postedMinutesAgo": 281,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-051",
+   "title": "Junior QA Automation Engineer",
+   "company": "Zenith Logistics",
+   "department": "Engineering",
+   "location": "Pune",
+   "type": "Contract",
+   "level": "Junior",
+   "salaryLPA": [
+    6,
+    8
+   ],
+   "stipendK": null,
+   "skills": [
+    "CSS",
+    "Accessibility",
+    "REST APIs",
+    "TypeScript"
+   ],
+   "postedMinutesAgo": 757,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-052",
+   "title": "Associate Product Manager",
+   "company": "Cobalt Systems",
+   "department": "Product",
+   "location": "Gurugram",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    10,
+    13
+   ],
+   "stipendK": null,
+   "skills": [
+    "Communication",
+    "User Research",
+    "Roadmapping",
+    "SQL"
+   ],
+   "postedMinutesAgo": 169,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-053",
+   "title": "UX Researcher",
+   "company": "Vertex Health",
+   "department": "Design",
+   "location": "Gurugram",
+   "type": "Full-time",
+   "level": "Mid",
+   "salaryLPA": [
+    6,
+    10
+   ],
+   "stipendK": null,
+   "skills": [
+    "Design Systems",
+    "Prototyping",
+    "User Research",
+    "Figma"
+   ],
+   "postedMinutesAgo": 365,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-054",
+   "title": "UX Researcher Intern",
+   "company": "Lumen Analytics",
+   "department": "Design",
+   "location": "Noida",
+   "type": "Internship",
+   "level": "Intern",
+   "salaryLPA": null,
+   "stipendK": 25,
+   "skills": [
+    "Accessibility",
+    "Prototyping",
+    "Figma",
+    "Design Systems"
+   ],
+   "postedMinutesAgo": 103,
+   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-055",
+   "title": "Associate ML Engineer",
+   "company": "Cobalt Systems",
+   "department": "Data",
+   "location": "Pune",
+   "type": "Contract",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    9
+   ],
+   "stipendK": null,
+   "skills": [
+    "Pandas",
+    "SQL",
+    "Statistics",
+    "Python"
+   ],
+   "postedMinutesAgo": 688,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-056",
+   "title": "DevOps Engineer",
+   "company": "Pixelforge",
+   "department": "Engineering",
+   "location": "Bengaluru",
+   "type": "Contract",
+   "level": "Mid",
+   "salaryLPA": [
+    5,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "Git",
+    "REST APIs",
+    "Testing",
+    "JavaScript"
+   ],
+   "postedMinutesAgo": 981,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-057",
+   "title": "Full Stack Developer Intern",
+   "company": "Pixelforge",
+   "department": "Engineering",
+   "location": "Mumbai",
+   "type": "Internship",
+   "level": "Intern",
+   "salaryLPA": null,
+   "stipendK": 15,
+   "skills": [
+    "REST APIs",
+    "HTML",
+    "JavaScript",
+    "Accessibility"
+   ],
+   "postedMinutesAgo": 2055,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-058",
+   "title": "Associate Product Manager",
+   "company": "Orbit Payments",
+   "department": "Product",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    10,
+    14
+   ],
+   "stipendK": null,
+   "skills": [
+    "User Research",
+    "Roadmapping",
+    "Communication",
+    "SQL"
+   ],
+   "postedMinutesAgo": 1254,
+   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-059",
+   "title": "Junior Backend Developer",
+   "company": "Saffron Tech",
+   "department": "Engineering",
+   "location": "Noida",
+   "type": "Full-time",
+   "level": "Junior",
+   "salaryLPA": [
+    3,
+    7
+   ],
+   "stipendK": null,
+   "skills": [
+    "Node.js",
+    "TypeScript",
+    "REST APIs",
+    "React"
+   ],
+   "postedMinutesAgo": 65,
+   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  },
+  {
+   "id": "job-060",
+   "title": "Associate ML Engineer",
+   "company": "Saffron Tech",
+   "department": "Data",
+   "location": "Hyderabad",
+   "type": "Full-time",
+   "level": "Associate",
+   "salaryLPA": [
+    3,
+    6
+   ],
+   "stipendK": null,
+   "skills": [
+    "Tableau",
+    "Machine Learning",
+    "Python",
+    "SQL"
+   ],
+   "postedMinutesAgo": 63,
+   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
+  }
+ ]
+}

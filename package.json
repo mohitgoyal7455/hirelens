@@ -1,0 +1,12 @@
+{
+  "name": "hirelens",
+  "version": "1.0.0",
+  "description": "Fresh-first job discovery PWA built with vanilla HTML, CSS and JavaScript",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "license": "MIT"
+}
