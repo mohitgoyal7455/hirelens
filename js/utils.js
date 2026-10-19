@@ -1,106 +1,196 @@
+const MINUTE_MS = 60 * 1000;
+const HOUR_MS = 60 * MINUTE_MS;
+const DAY_MS = 24 * HOUR_MS;
+const FRESHNESS_WINDOW_MS = 7 * DAY_MS;
+const WITHIN_MS = Object.freeze({ "3h": 3 * HOUR_MS, "24h": DAY_MS, "7d": 7 * DAY_MS });
+const HTML_ESCAPES = Object.freeze({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;", "`": "&#96;" });
+
+export const DEFAULT_FILTERS = Object.freeze({
+  q: "",
+  location: "",
+  type: "",
+  department: "",
+  within: "",
+  sort: "newest",
+  saved: false,
+  salaryMin: 0,
+  salaryMax: 75,
+});
+
+export const SALARY_CAP = 75;
+
 export function debounce(fn, wait = 250) {
-  let timer;
+  let timer = null;
   const debounced = (...args) => {
     clearTimeout(timer);
-    timer = setTimeout(() => fn(...args), wait);
+    timer = setTimeout(() => {
+      timer = null;
+      fn(...args);
+    }, wait);
   };
-  debounced.cancel = () => clearTimeout(timer);
+  debounced.cancel = () => {
+    clearTimeout(timer);
+    timer = null;
+  };
   return debounced;
 }
 
 export function escapeHTML(value) {
-  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-  }[ch]));
+  return String(value ?? "").replace(/[&<>"'`]/g, (character) => HTML_ESCAPES[character]);
+}
+
+function toMs(date) {
+  if (typeof date === "number") return date;
+  if (date instanceof Date) return date.getTime();
+  return Date.parse(date);
 }
 
 export function timeAgo(date, now = Date.now()) {
-  const mins = Math.max(0, Math.floor((now - new Date(date).getTime()) / 60000));
-  if (mins < 1) return "just now";
-  if (mins < 60) return `${mins}m ago`;
-  const hrs = Math.floor(mins / 60);
-  if (hrs < 24) return `${hrs}h ago`;
-  return `${Math.floor(hrs / 24)}d ago`;
+  const elapsed = Math.max(0, now - toMs(date));
+  if (elapsed < MINUTE_MS) return "just now";
+  if (elapsed < HOUR_MS) return `${Math.floor(elapsed / MINUTE_MS)}m ago`;
+  if (elapsed < DAY_MS) return `${Math.floor(elapsed / HOUR_MS)}h ago`;
+  return `${Math.floor(elapsed / DAY_MS)}d ago`;
 }
 
 export function freshness(date, now = Date.now()) {
-  const hrs = (now - new Date(date).getTime()) / 3_600_000;
-  if (hrs <= 3) return "hot";
-  if (hrs <= 24) return "fresh";
+  const elapsed = now - toMs(date);
+  if (elapsed <= 3 * HOUR_MS) return "hot";
+  if (elapsed <= DAY_MS) return "fresh";
   return "older";
 }
 
-export function freshnessScore(date, now = Date.now(), windowHrs = 168) {
-  const hrs = (now - new Date(date).getTime()) / 3_600_000;
-  return Math.max(0.04, Math.min(1, 1 - hrs / windowHrs));
+export function freshnessScore(date, now = Date.now()) {
+  const elapsed = Math.max(0, now - toMs(date));
+  return Math.max(0, Math.min(1, 1 - elapsed / FRESHNESS_WINDOW_MS));
 }
 
 export function hydrateJobs(rows, now = Date.now()) {
-  return rows.map((job) => ({
-    ...job,
-    postedAt: new Date(now - job.postedMinutesAgo * 60000).toISOString(),
-  }));
+  return rows.map((job) => {
+    const postedAtMs = now - Math.max(0, Number(job.postedMinutesAgo) || 0) * MINUTE_MS;
+    return { ...job, postedAtMs, postedAt: new Date(postedAtMs).toISOString() };
+  });
 }
 
-export const DEFAULT_FILTERS = Object.freeze({
-  q: "", location: "", type: "", department: "", within: "", sort: "newest", saved: false,
-});
+function postedMs(job) {
+  return Number.isFinite(job.postedAtMs) ? job.postedAtMs : toMs(job.postedAt);
+}
 
-const WITHIN_HOURS = { "3h": 3, "24h": 24, "7d": 168 };
+function topPay(job) {
+  if (job.salaryLPA) return job.salaryLPA[1] * 100000;
+  if (job.stipendK) return job.stipendK * 1000 * 12;
+  return 0;
+}
 
-export function filterJobs(jobs, filters, { savedIds = new Set(), now = Date.now() } = {}) {
-  const f = { ...DEFAULT_FILTERS, ...filters };
-  const terms = f.q.toLowerCase().split(/\s+/).filter(Boolean);
-  const maxHrs = WITHIN_HOURS[f.within];
+export function payRangeLPA(job) {
+  if (Array.isArray(job.salaryLPA)) return job.salaryLPA;
+  if (job.stipendK) {
+    const annual = (job.stipendK * 12) / 100;
+    return [annual, annual];
+  }
+  return null;
+}
 
-  const result = jobs.filter((job) => {
-    if (f.saved && !savedIds.has(job.id)) return false;
-    if (f.location && job.location !== f.location) return false;
-    if (f.type && job.type !== f.type) return false;
-    if (f.department && job.department !== f.department) return false;
-    if (maxHrs && (now - new Date(job.postedAt).getTime()) / 3_600_000 > maxHrs) return false;
+export function filterJobs(jobs, filters = {}, { savedIds = new Set(), now = Date.now() } = {}) {
+  const active = { ...DEFAULT_FILTERS, ...filters };
+  const terms = String(active.q).toLowerCase().split(/\s+/).filter(Boolean);
+  const withinMs = WITHIN_MS[active.within];
+  const salaryActive = active.salaryMin > 0 || active.salaryMax < SALARY_CAP;
+
+  const matches = jobs.filter((job) => {
+    if (active.saved && !savedIds.has(job.id)) return false;
+    if (active.location && job.location !== active.location) return false;
+    if (active.type && job.type !== active.type) return false;
+    if (active.department && job.department !== active.department) return false;
+    if (salaryActive) {
+      const range = payRangeLPA(job);
+      if (!range || range[1] < active.salaryMin || (active.salaryMax < SALARY_CAP && range[0] > active.salaryMax)) return false;
+    }
+    if (withinMs && now - postedMs(job) > withinMs) return false;
     if (terms.length) {
       const haystack = [job.title, job.company, job.location, ...job.skills].join(" ").toLowerCase();
-      if (!terms.every((t) => haystack.includes(t))) return false;
+      if (!terms.every((term) => haystack.includes(term))) return false;
     }
     return true;
   });
 
-  const byDate = (a, b) => new Date(b.postedAt) - new Date(a.postedAt);
-  const pay = (j) => (j.salaryLPA ? j.salaryLPA[1] : 0);
-  if (f.sort === "salary") result.sort((a, b) => pay(b) - pay(a) || byDate(a, b));
-  else result.sort(byDate);
-  return result;
+  const newestFirst = (a, b) => postedMs(b) - postedMs(a);
+  if (active.sort === "salary") return matches.sort((a, b) => topPay(b) - topPay(a) || newestFirst(a, b));
+  return matches.sort(newestFirst);
 }
 
 export function filtersToQuery(filters) {
   const params = new URLSearchParams();
-  for (const [key, value] of Object.entries(filters)) {
-    if (value === DEFAULT_FILTERS[key] || value === "" || value === false) continue;
+  for (const key of Object.keys(DEFAULT_FILTERS)) {
+    const value = filters[key];
+    if (value === undefined || value === DEFAULT_FILTERS[key] || value === "" || value === false) continue;
     params.set(key, String(value));
   }
-  const s = params.toString();
-  return s ? `?${s}` : "";
+  const query = params.toString();
+  return query ? `?${query}` : "";
 }
 
 export function queryToFilters(search) {
   const params = new URLSearchParams(search);
-  const out = { ...DEFAULT_FILTERS };
+  const filters = { ...DEFAULT_FILTERS };
   for (const key of Object.keys(DEFAULT_FILTERS)) {
     if (!params.has(key)) continue;
-    out[key] = key === "saved" ? params.get(key) === "true" : params.get(key);
+    const raw = params.get(key);
+    if (key === "saved") filters.saved = raw === "true";
+    else if (key === "sort") filters.sort = raw === "salary" ? "salary" : "newest";
+    else if (key === "within") filters.within = raw in WITHIN_MS ? raw : "";
+    else if (key === "salaryMin" || key === "salaryMax") {
+      const number = Math.round(Number(raw));
+      filters[key] = Number.isFinite(number) ? Math.max(0, Math.min(SALARY_CAP, number)) : DEFAULT_FILTERS[key];
+    } else filters[key] = raw.trim();
   }
-  return out;
+  return filters;
 }
 
 export function formatPay(job) {
-  if (job.salaryLPA) return `₹${job.salaryLPA[0]}–${job.salaryLPA[1]} LPA`;
+  if (Array.isArray(job.salaryLPA)) {
+    const [min, max] = job.salaryLPA;
+    return min === max ? `₹${min} LPA` : `₹${min}–${max} LPA`;
+  }
   if (job.stipendK) return `₹${job.stipendK}k / month`;
-  return "Not disclosed";
+  return "Pay not disclosed";
 }
 
 export function hueFor(text) {
-  let h = 0;
-  for (const ch of String(text)) h = (h * 31 + ch.charCodeAt(0)) % 360;
-  return h;
+  let hash = 0;
+  for (const character of String(text)) hash = (hash * 31 + character.codePointAt(0)) % 360;
+  return hash;
+}
+
+export function fuzzyMatch(needle, haystack) {
+  const query = String(needle).toLowerCase().replace(/\s+/g, "");
+  const text = String(haystack);
+  const lower = text.toLowerCase();
+  if (!query) return { score: 0, indices: [] };
+  const indices = [];
+  let score = 0;
+  let cursor = 0;
+  let previous = -2;
+  for (const character of query) {
+    const found = lower.indexOf(character, cursor);
+    if (found === -1) return null;
+    const atWordStart = found === 0 || /[\s\-_/·.]/.test(lower[found - 1]);
+    score += 1;
+    if (found === previous + 1) score += 3;
+    if (atWordStart) score += 4;
+    score -= Math.min(3, (found - cursor) * 0.1);
+    indices.push(found);
+    previous = found;
+    cursor = found + 1;
+  }
+  if (lower.startsWith(query)) score += 6;
+  else if (lower.includes(query)) score += 3;
+  score -= text.length * 0.01;
+  return { score, indices };
+}
+
+const countFormatter = new Intl.NumberFormat("en-IN");
+
+export function formatCount(n) {
+  return countFormatter.format(Math.max(0, Math.round(Number(n) || 0)));
 }

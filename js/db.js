@@ -1,52 +1,99 @@
 const DB_NAME = "hirelens";
-const STORE = "saved";
-const LS_KEY = "hirelens:saved";
+const DB_VERSION = 1;
+const STORE_NAME = "saved";
+const FALLBACK_KEY = "hirelens:saved";
 
-function openDB() {
+function openDatabase() {
   return new Promise((resolve, reject) => {
-    if (!("indexedDB" in globalThis)) return reject(new Error("No IndexedDB"));
-    const req = indexedDB.open(DB_NAME, 1);
-    req.onupgradeneeded = () => req.result.createObjectStore(STORE, { keyPath: "id" });
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
+    if (!("indexedDB" in globalThis)) {
+      reject(new Error("IndexedDB unavailable"));
+      return;
+    }
+    const request = indexedDB.open(DB_NAME, DB_VERSION);
+    request.onupgradeneeded = () => {
+      if (!request.result.objectStoreNames.contains(STORE_NAME)) {
+        request.result.createObjectStore(STORE_NAME, { keyPath: "id" });
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+    request.onblocked = () => reject(new Error("IndexedDB blocked"));
   });
 }
 
-function tx(db, mode, run) {
+function runTransaction(database, mode, operation) {
   return new Promise((resolve, reject) => {
-    const t = db.transaction(STORE, mode);
-    const result = run(t.objectStore(STORE));
-    t.oncomplete = () => resolve(result?.result);
-    t.onerror = () => reject(t.error);
+    const transaction = database.transaction(STORE_NAME, mode);
+    const request = operation(transaction.objectStore(STORE_NAME));
+    transaction.oncomplete = () => resolve(request?.result);
+    transaction.onerror = () => reject(transaction.error);
+    transaction.onabort = () => reject(transaction.error || new Error("Transaction aborted"));
   });
 }
 
-function lsRead() {
-  try { return new Set(JSON.parse(localStorage.getItem(LS_KEY) || "[]")); }
-  catch { return new Set(); }
+function readFallback() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(FALLBACK_KEY) || "[]");
+    return new Set(Array.isArray(parsed) ? parsed : []);
+  } catch {
+    return new Set();
+  }
 }
-function lsWrite(ids) {
-  try { localStorage.setItem(LS_KEY, JSON.stringify([...ids])); } catch { }
+
+function writeFallback(ids) {
+  localStorage.setItem(FALLBACK_KEY, JSON.stringify([...ids]));
+}
+
+function createFallbackBackend() {
+  return {
+    backend: "localStorage",
+    async all() {
+      return readFallback();
+    },
+    async add(id) {
+      const ids = readFallback();
+      ids.add(id);
+      writeFallback(ids);
+    },
+    async remove(id) {
+      const ids = readFallback();
+      ids.delete(id);
+      writeFallback(ids);
+    },
+  };
+}
+
+function createIndexedBackend(database) {
+  return {
+    backend: "IndexedDB",
+    async all() {
+      const rows = await runTransaction(database, "readonly", (store) => store.getAll());
+      return new Set((rows || []).map((row) => row.id));
+    },
+    async add(id) {
+      await runTransaction(database, "readwrite", (store) => store.put({ id, savedAt: Date.now() }));
+    },
+    async remove(id) {
+      await runTransaction(database, "readwrite", (store) => store.delete(id));
+    },
+  };
 }
 
 export async function createSavedJobsDB() {
-  let db = null;
-  try { db = await openDB(); } catch { }
-
-  return {
-    backend: db ? "IndexedDB" : "localStorage",
-    async all() {
-      if (!db) return lsRead();
-      const rows = await tx(db, "readonly", (s) => s.getAll());
-      return new Set((rows || []).map((r) => r.id));
-    },
-    async add(id) {
-      if (!db) { const s = lsRead(); s.add(id); return lsWrite(s); }
-      await tx(db, "readwrite", (s) => s.put({ id, savedAt: Date.now() }));
-    },
-    async remove(id) {
-      if (!db) { const s = lsRead(); s.delete(id); return lsWrite(s); }
-      await tx(db, "readwrite", (s) => s.delete(id));
-    },
-  };
+  try {
+    const database = await openDatabase();
+    const indexed = createIndexedBackend(database);
+    const legacy = readFallback();
+    if (legacy.size) {
+      await Promise.all([...legacy].map((id) => indexed.add(id)));
+      try {
+        localStorage.removeItem(FALLBACK_KEY);
+      } catch {
+        return indexed;
+      }
+    }
+    return indexed;
+  } catch {
+    return createFallbackBackend();
+  }
 }

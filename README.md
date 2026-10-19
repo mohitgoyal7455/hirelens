@@ -1,83 +1,138 @@
-# HireLens — Fresh-First Job Discovery
+# HireLens
 
-A fast, accessible, offline-capable job discovery web app built with **vanilla HTML, CSS and JavaScript** — no frameworks, no build step.
-Newly posted jobs are sorted to the top and tagged by how fresh they are, so candidates can apply before the crowd.
+**See new jobs the hour they're posted.** HireLens is a fresh-first job discovery Progressive Web App for India's product companies, built with plain HTML, CSS and JavaScript modules. It has no framework, no build step and no runtime dependencies.
 
-**Live demo:** https://mohitgoyal7455.github.io/hirelens/
+**Live demo:** https://YOUR-USERNAME.github.io/hirelens/
 
-![HireLens home page](assets/preview.png)
+![HireLens preview](./assets/preview.svg)
+
+> **Note:** every company, role and salary in `data/jobs.json` is **mock data** made up for this demo. None of it is a real job posting.
 
 ## Features
 
-- **Instant search & filters** — debounced multi-word search across title, company and skills; filter by location, job type, team and "posted within" (3h / 24h / 7d); sort by newest or pay.
-- **Shareable URLs** — filter state is synced to the query string (`?q=react&location=Mumbai`) with `history.replaceState`, so any view can be bookmarked or shared.
-- **Saved jobs** — bookmarks persist in **IndexedDB**, falling back to `localStorage` when IndexedDB is unavailable. Saving is **optimistic**: the UI updates immediately and rolls back if the write fails.
-- **Works offline (PWA)** — a **Service Worker** serves the app shell cache-first and job data stale-while-revalidate; an offline banner appears when the connection drops. Installable via a web app manifest.
-- **Infinite scroll** — results render in pages of 12 using `IntersectionObserver`.
-- **Accessible by default** — semantic landmarks, skip link, labelled form controls, `aria-live` result count, `aria-pressed` toggle buttons, native `<dialog>` with Esc-to-close and focus returned to the trigger, visible focus rings, `prefers-reduced-motion` support, and a `/` keyboard shortcut to jump to search.
-- **Live freshness** — a "Just posted" feed and a per-job freshness bar; relative times refresh every minute without a reload.
-- **Light / dark theme** — CSS custom-property design tokens; respects `prefers-color-scheme` and remembers the user's choice.
-- **Self-hosted fonts** — Bricolage Grotesque and Figtree are served locally and preloaded, so text renders fast and works offline.
-- **Rendering performance** — a single delegated click listener for the whole list, renders batched with `requestAnimationFrame`, `contain: content` on cards, no third-party JS, and skeleton loaders while data loads.
-- **Safe rendering** — all dynamic text is escaped before it reaches `innerHTML` to prevent XSS.
-- **Unit tested** — pure logic (filtering, sorting, URL sync, time formatting, debounce, escaping) is covered with Node's built-in test runner.
+### Core
+- Newest jobs first, with a freshness bar and *New* / *Today* pills on every row
+- Search that waits 250 ms after you stop typing and matches every word across title, company, location and skills
+- Filters for location, job type, department and posted within (3h / 24h / 7d), plus sorting by newest or highest pay
+- The current filters live in the URL (`history.replaceState`), so any view can be shared as a link
+- Saved jobs stored in IndexedDB, with a localStorage fallback. The UI updates straight away and rolls back with a toast if the write fails
+- *Saved* toggle in the nav with a live count and `aria-pressed`
+- Infinite scroll in pages of 10 using `IntersectionObserver`
+- Job details in a native `<dialog>`. Esc or a backdrop click closes it, and focus goes back to the button that opened it
+- Relative times update every 60 seconds
+- Light and dark themes that follow the system by default and remember your choice
+- Skeleton loaders, an error state with *Try again*, and an empty state with *Clear filters*
+- Offline support: a service worker serves the app shell cache-first and the data stale-while-revalidate, and a banner appears when you go offline
 
-## Tech
+### Standout layer
+1. **Motion system:** shared easing and duration tokens. Every animation turns into an instant change or a simple fade under `prefers-reduced-motion`.
+2. **FLIP list animation:** when filters or sort change, rows slide to their new positions, removed rows fade and shrink out, and new rows rise in with a 28 ms stagger.
+3. **View Transitions:** the theme toggle reveals the new theme in a circle from the button, and a row's logo morphs into the dialog header. Browsers without the API get the plain transition.
+4. **Command palette** (`⌘K` / `Ctrl K`): fuzzy search over every job, commands grouped separately, full `aria-activedescendant` support.
+5. **Keyboard-first list:** `j` / `k` move between rows, `Enter` opens, `s` saves, `/` focuses search, `?` opens the shortcut sheet, `Esc` closes any dialog.
+6. **Compare drawer:** shortlist up to 3 jobs and see them side by side, with the best salary and the freshest posting highlighted. On mobile it becomes a bottom sheet.
+7. **Deep links:** `?job=<id>` opens that job's dialog on a cold load. *Copy link* copies the job's full URL.
+8. **Recently viewed:** a strip under the hero showing the last 6 jobs you opened.
+9. **"New since your last visit"** banner that applies a 24-hour filter in one click.
+10. **Animated numbers:** the hero count counts up, the saved badge pulses when it changes, the result count cross-fades, freshness bars fill when they scroll into view, and *hot* bars shimmer.
+11. **Hover peek** (desktop only): after 350 ms on a row, a card shows the full summary, where the salary sits in its band, and the skills.
+12. **Toasts:** up to 3 at once, each with an undo or retry action, a progress bar, and a timer that pauses on hover.
+13. **Install prompt:** a custom *Install app* button and palette command.
+14. **Scroll reveal** for sections, with numbered steps that stagger in.
+15. **Shimmer skeletons:** no spinners anywhere.
+16. **Hand-drawn inline SVG illustrations** for the empty and error states.
+17. **Filter chips** you can remove one by one, with *Clear all* once there are two or more.
+18. **Live pulse details:** a pulsing *Live* badge, an accent bar on hot rows, and a magnifier logo that scans on hover.
 
-HTML5 · CSS3 (Grid, Flexbox, custom properties, `color-mix`) · JavaScript (ES modules) · IndexedDB · Service Worker · Web App Manifest · `node:test`
+### Accessibility
+Semantic landmarks, a skip link, a labelled control for every action, an `aria-live` result count, `aria-pressed` and `aria-expanded` where they apply, visible `:focus-visible` rings on every interactive element, focus kept inside each dialog, focus restored when it closes, and reduced motion respected everywhere.
+
+## Keyboard shortcuts
+
+| Key | Action |
+| --- | --- |
+| `⌘K` / `Ctrl K` | Command palette |
+| `/` | Focus search |
+| `j` / `k` | Next / previous job |
+| `Enter` | Open focused job |
+| `s` | Save or unsave focused job |
+| `t` | Toggle theme |
+| `x` | Clear filters |
+| `v` | Show saved jobs |
+| `p` / `n` | Sort by pay / newest |
+| `l` | Copy link to this view |
+| `?` | Shortcut sheet |
+| `Esc` | Close any dialog |
+
+## Tech stack
+
+- HTML5 with native `<dialog>`, landmarks and ARIA
+- CSS with custom properties, `color-mix()`, Grid and Flexbox layouts, View Transitions
+- JavaScript ES modules with no third-party code
+- IndexedDB, localStorage, sessionStorage
+- Service Worker and Web App Manifest
+- `node:test` for unit tests
 
 ## Project structure
 
 ```
 hirelens/
-├── index.html            # semantic markup, filters, dialog
-├── css/styles.css        # design tokens, layout, components, dark mode
+├── index.html              App shell, dialogs and the SVG icon sprite
+├── css/styles.css          Design tokens, motion system, components, responsive rules
 ├── js/
-│   ├── main.js           # app wiring: events, URL sync, infinite scroll, theme
-│   ├── store.js          # tiny observable state store (pub/sub)
-│   ├── db.js             # IndexedDB persistence with localStorage fallback
-│   ├── render.js         # HTML templates for cards, dialog, empty states
-│   └── utils.js          # pure functions (filter, sort, timeAgo, debounce…)
-├── sw.js                 # service worker (offline caching)
-├── manifest.webmanifest  # PWA manifest
-├── assets/               # icon, preview image, self-hosted fonts
-├── data/jobs.json        # mock job listings
-└── tests/utils.test.js   # unit tests
+│   ├── main.js             State wiring, rendering, FLIP, dialogs, palette, keyboard, toasts
+│   ├── store.js            Tiny observable store plus safe storage helpers
+│   ├── db.js               Saved jobs in IndexedDB with a localStorage fallback
+│   ├── render.js           HTML templates; every dynamic value goes through escapeHTML
+│   └── utils.js            Pure, unit-tested helpers (filtering, time, URL, fuzzy match)
+├── sw.js                   Versioned caches: cache-first shell, stale-while-revalidate data
+├── manifest.webmanifest
+├── data/jobs.json          60 mock jobs
+├── assets/
+│   ├── icon.svg
+│   ├── preview.svg
+│   └── fonts/              Self-hosted woff2, OFL licence, download notes
+├── tests/utils.test.js     10 unit tests
+├── package.json
+├── LICENSE
+└── README.md
 ```
 
 ## Run locally
 
-ES modules and service workers need to be served over HTTP (opening `index.html` directly as a file won't work).
+ES modules and service workers need a real HTTP server. **Opening `index.html` directly as a `file://` URL will not work.**
 
 ```bash
-# any one of these, from the project folder
 npx serve .
 python -m http.server 8000
-# or VS Code → "Open with Live Server"
 ```
 
-Then open http://localhost:3000 (or :8000).
+Then open the printed URL (for example `http://localhost:3000` or `http://localhost:8000`).
 
-## Run tests
-
-Requires Node.js 18+.
+## Tests
 
 ```bash
 npm test
 ```
 
+This runs 10 tests with Node's built-in test runner (Node 18 or newer). There is nothing to install.
+
 ## Deploy to GitHub Pages
 
-1. Push this folder to a repository named `hirelens`.
-2. Go to **Settings → Pages**, set **Source** to *Deploy from a branch*, branch `main`, folder `/ (root)`.
-3. The site will be live at `https://<your-username>.github.io/hirelens/`.
+1. Push this folder to a GitHub repository (the repository root should hold `index.html`).
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, then pick `main` and `/ (root)`.
+4. Save. After a minute the site is live at `https://<username>.github.io/<repo>/`.
+5. Put that URL in the *Live demo* link at the top of this file.
 
-All paths are relative, so it works under the `/hirelens/` sub-path without changes.
+All paths are relative and the service worker is registered with a `./` scope, so the app works from a project subpath without changes. Vercel works too: import the repository and deploy with no build command.
 
-## Notes
+## Fonts
 
-Job listings in `data/jobs.json` are mock data. Each entry stores `postedMinutesAgo`, which is converted to a real timestamp on load so the freshness badges stay meaningful in the demo. Swapping in a real API only requires changing the `fetch` URL in `js/main.js`.
+Bricolage Grotesque (headings) and Figtree (body) are self-hosted from `assets/fonts/`. See [`assets/fonts/README.md`](./assets/fonts/README.md) for the exact files and where to get them. A metric-matched fallback stack keeps the layout stable if the files are missing.
 
 ## License
 
-Code: MIT. Fonts: SIL Open Font License 1.1 (see `assets/fonts/OFL.txt`).
+- **Code:** MIT, see [`LICENSE`](./LICENSE).
+- **Fonts:** SIL Open Font License 1.1, see [`assets/fonts/OFL.txt`](./assets/fonts/OFL.txt).
+- **Job data:** fictional sample data, for demonstration only.

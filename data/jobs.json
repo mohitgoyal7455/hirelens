@@ -1,1308 +1,1285 @@
 {
- "generatedFor": "demo",
- "note": "Mock data. postedMinutesAgo is resolved against the current time on load so freshness badges stay meaningful.",
- "jobs": [
-  {
-   "id": "job-001",
-   "title": "Junior Data Analyst",
-   "company": "Quarkbyte",
-   "department": "Data",
-   "location": "Remote",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    10,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "Statistics",
-    "Python",
-    "Pandas",
-    "Machine Learning"
-   ],
-   "postedMinutesAgo": 19,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-002",
-   "title": "React Developer",
-   "company": "Quarkbyte",
-   "department": "Engineering",
-   "location": "Pune",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    3,
-    6
-   ],
-   "stipendK": null,
-   "skills": [
-    "Git",
-    "JavaScript",
-    "HTML",
-    "REST APIs"
-   ],
-   "postedMinutesAgo": 2453,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-003",
-   "title": "QA Automation Engineer",
-   "company": "Orbit Payments",
-   "department": "Engineering",
-   "location": "Remote",
-   "type": "Full-time",
-   "level": "Mid",
-   "salaryLPA": [
-    4,
-    6
-   ],
-   "stipendK": null,
-   "skills": [
-    "CSS",
-    "React",
-    "Git",
-    "HTML"
-   ],
-   "postedMinutesAgo": 6494,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-004",
-   "title": "Junior DevOps Engineer",
-   "company": "Brightpath",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    8,
-    11
-   ],
-   "stipendK": null,
-   "skills": [
-    "Testing",
-    "HTML",
-    "JavaScript",
-    "React"
-   ],
-   "postedMinutesAgo": 1196,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-005",
-   "title": "Product Designer",
-   "company": "Vertex Health",
-   "department": "Design",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    5,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "Prototyping",
-    "Figma",
-    "User Research",
-    "Accessibility"
-   ],
-   "postedMinutesAgo": 7067,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-006",
-   "title": "Associate Product Designer",
-   "company": "Pixelforge",
-   "department": "Design",
-   "location": "Remote",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "User Research",
-    "Prototyping",
-    "Design Systems",
-    "Accessibility"
-   ],
-   "postedMinutesAgo": 338,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-007",
-   "title": "Associate Product Manager",
-   "company": "Quarkbyte",
-   "department": "Product",
-   "location": "Remote",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    8,
-    14
-   ],
-   "stipendK": null,
-   "skills": [
-    "Roadmapping",
-    "SQL",
-    "Analytics",
-    "Communication"
-   ],
-   "postedMinutesAgo": 814,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-008",
-   "title": "Product Manager",
-   "company": "Brightpath",
-   "department": "Product",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    3,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "Communication",
-    "Roadmapping",
-    "Analytics",
-    "User Research"
-   ],
-   "postedMinutesAgo": 3559,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-009",
-   "title": "Full Stack Developer",
-   "company": "Pixelforge",
-   "department": "Engineering",
-   "location": "Gurugram",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    6,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "Git",
-    "Testing",
-    "React",
-    "HTML"
-   ],
-   "postedMinutesAgo": 6001,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-010",
-   "title": "Associate ML Engineer",
-   "company": "Quarkbyte",
-   "department": "Data",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    4,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "SQL",
-    "Tableau",
-    "Statistics",
-    "Python"
-   ],
-   "postedMinutesAgo": 1386,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-011",
-   "title": "Backend Developer Intern",
-   "company": "Nimbus Cloud",
-   "department": "Engineering",
-   "location": "Pune",
-   "type": "Internship",
-   "level": "Intern",
-   "salaryLPA": null,
-   "stipendK": 25,
-   "skills": [
-    "Accessibility",
-    "Node.js",
-    "CSS",
-    "Testing"
-   ],
-   "postedMinutesAgo": 8921,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-012",
-   "title": "UX Researcher",
-   "company": "Quarkbyte",
-   "department": "Design",
-   "location": "Gurugram",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    6,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "Design Systems",
-    "Figma",
-    "Accessibility",
-    "User Research"
-   ],
-   "postedMinutesAgo": 58,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-013",
-   "title": "Data Analyst Intern",
-   "company": "Northwind Labs",
-   "department": "Data",
-   "location": "Pune",
-   "type": "Internship",
-   "level": "Intern",
-   "salaryLPA": null,
-   "stipendK": 20,
-   "skills": [
-    "Statistics",
-    "Python",
-    "Pandas",
-    "Machine Learning"
-   ],
-   "postedMinutesAgo": 4847,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-014",
-   "title": "Junior ML Engineer",
-   "company": "Saffron Tech",
-   "department": "Data",
-   "location": "Bengaluru",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    5,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "Python",
-    "Machine Learning",
-    "Statistics",
-    "SQL"
-   ],
-   "postedMinutesAgo": 128,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-015",
-   "title": "Associate React Developer",
-   "company": "Orbit Payments",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    6,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "TypeScript",
-    "Testing",
-    "Node.js",
-    "HTML"
-   ],
-   "postedMinutesAgo": 6323,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-016",
-   "title": "Associate React Developer",
-   "company": "Vertex Health",
-   "department": "Engineering",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    4,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "Testing",
-    "Accessibility",
-    "Node.js",
-    "REST APIs"
-   ],
-   "postedMinutesAgo": 62,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-017",
-   "title": "Junior ML Engineer",
-   "company": "Brightpath",
-   "department": "Data",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    8,
-    14
-   ],
-   "stipendK": null,
-   "skills": [
-    "Python",
-    "Tableau",
-    "Pandas",
-    "SQL"
-   ],
-   "postedMinutesAgo": 576,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-018",
-   "title": "Associate Product Manager",
-   "company": "Quarkbyte",
-   "department": "Product",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    6
-   ],
-   "stipendK": null,
-   "skills": [
-    "User Research",
-    "Analytics",
-    "Communication",
-    "Roadmapping"
-   ],
-   "postedMinutesAgo": 1429,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-019",
-   "title": "Associate DevOps Engineer",
-   "company": "Zenith Logistics",
-   "department": "Engineering",
-   "location": "Gurugram",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    10,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "TypeScript",
-    "REST APIs",
-    "CSS",
-    "Accessibility"
-   ],
-   "postedMinutesAgo": 2861,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-020",
-   "title": "ML Engineer",
-   "company": "Indigo Commerce",
-   "department": "Data",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    10,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "SQL",
-    "Tableau",
-    "Python",
-    "Machine Learning"
-   ],
-   "postedMinutesAgo": 3834,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-021",
-   "title": "QA Automation Engineer",
-   "company": "Northwind Labs",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    4,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "HTML",
-    "Testing",
-    "CSS",
-    "TypeScript"
-   ],
-   "postedMinutesAgo": 612,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-022",
-   "title": "Associate Full Stack Developer",
-   "company": "Cobalt Systems",
-   "department": "Engineering",
-   "location": "Pune",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    8,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "Git",
-    "CSS",
-    "JavaScript",
-    "Node.js"
-   ],
-   "postedMinutesAgo": 1118,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-023",
-   "title": "Junior UX Researcher",
-   "company": "Monsoon Media",
-   "department": "Design",
-   "location": "Gurugram",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    8,
-    10
-   ],
-   "stipendK": null,
-   "skills": [
-    "Prototyping",
-    "Figma",
-    "Design Systems",
-    "User Research"
-   ],
-   "postedMinutesAgo": 3411,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-024",
-   "title": "Associate Frontend Developer",
-   "company": "Lumen Analytics",
-   "department": "Engineering",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    5
-   ],
-   "stipendK": null,
-   "skills": [
-    "React",
-    "JavaScript",
-    "HTML",
-    "Accessibility"
-   ],
-   "postedMinutesAgo": 120,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-025",
-   "title": "Associate Product Designer",
-   "company": "Saffron Tech",
-   "department": "Design",
-   "location": "Pune",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    10,
-    14
-   ],
-   "stipendK": null,
-   "skills": [
-    "Accessibility",
-    "Design Systems",
-    "User Research",
-    "Figma"
-   ],
-   "postedMinutesAgo": 711,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-026",
-   "title": "UI Engineer",
-   "company": "Brightpath",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Full-time",
-   "level": "Mid",
-   "salaryLPA": [
-    6,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "TypeScript",
-    "Git",
-    "HTML",
-    "REST APIs"
-   ],
-   "postedMinutesAgo": 176,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-027",
-   "title": "Associate Product Manager",
-   "company": "Saffron Tech",
-   "department": "Product",
-   "location": "Mumbai",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    5,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "Roadmapping",
-    "User Research",
-    "Analytics",
-    "Communication"
-   ],
-   "postedMinutesAgo": 4085,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-028",
-   "title": "ML Engineer",
-   "company": "Brightpath",
-   "department": "Data",
-   "location": "Noida",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    6,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "Python",
-    "Pandas",
-    "Tableau",
-    "SQL"
-   ],
-   "postedMinutesAgo": 8656,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-029",
-   "title": "Frontend Developer",
-   "company": "Orbit Payments",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    8,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "HTML",
-    "TypeScript",
-    "Accessibility",
-    "JavaScript"
-   ],
-   "postedMinutesAgo": 72,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-030",
-   "title": "Junior Backend Developer",
-   "company": "Nimbus Cloud",
-   "department": "Engineering",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    10,
-    14
-   ],
-   "stipendK": null,
-   "skills": [
-    "Testing",
-    "Accessibility",
-    "REST APIs",
-    "Node.js"
-   ],
-   "postedMinutesAgo": 88,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-031",
-   "title": "Junior Product Manager",
-   "company": "Northwind Labs",
-   "department": "Product",
-   "location": "Hyderabad",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    3,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "Roadmapping",
-    "SQL",
-    "Communication",
-    "User Research"
-   ],
-   "postedMinutesAgo": 721,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-032",
-   "title": "Associate Frontend Developer",
-   "company": "Northwind Labs",
-   "department": "Engineering",
-   "location": "Pune",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    5,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "TypeScript",
-    "HTML",
-    "CSS",
-    "REST APIs"
-   ],
-   "postedMinutesAgo": 550,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-033",
-   "title": "Associate DevOps Engineer",
-   "company": "Orbit Payments",
-   "department": "Engineering",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    5,
-    11
-   ],
-   "stipendK": null,
-   "skills": [
-    "CSS",
-    "React",
-    "Node.js",
-    "Git"
-   ],
-   "postedMinutesAgo": 9,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-034",
-   "title": "Junior Frontend Developer",
-   "company": "Quarkbyte",
-   "department": "Engineering",
-   "location": "Hyderabad",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    4,
-    10
-   ],
-   "stipendK": null,
-   "skills": [
-    "Git",
-    "REST APIs",
-    "Accessibility",
-    "React"
-   ],
-   "postedMinutesAgo": 620,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-035",
-   "title": "Junior Full Stack Developer",
-   "company": "Monsoon Media",
-   "department": "Engineering",
-   "location": "Mumbai",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    5,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "JavaScript",
-    "HTML",
-    "React",
-    "TypeScript"
-   ],
-   "postedMinutesAgo": 2824,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-036",
-   "title": "Associate ML Engineer",
-   "company": "Northwind Labs",
-   "department": "Data",
-   "location": "Gurugram",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    10,
-    14
-   ],
-   "stipendK": null,
-   "skills": [
-    "SQL",
-    "Tableau",
-    "Pandas",
-    "Statistics"
-   ],
-   "postedMinutesAgo": 719,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-037",
-   "title": "Associate UX Researcher",
-   "company": "Lumen Analytics",
-   "department": "Design",
-   "location": "Noida",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "Prototyping",
-    "Figma",
-    "Accessibility",
-    "User Research"
-   ],
-   "postedMinutesAgo": 6009,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-038",
-   "title": "Junior DevOps Engineer",
-   "company": "Quarkbyte",
-   "department": "Engineering",
-   "location": "Noida",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    8,
-    10
-   ],
-   "stipendK": null,
-   "skills": [
-    "HTML",
-    "CSS",
-    "Git",
-    "React"
-   ],
-   "postedMinutesAgo": 986,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-039",
-   "title": "Junior Backend Developer",
-   "company": "Tidewater Soft",
-   "department": "Engineering",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    8,
-    11
-   ],
-   "stipendK": null,
-   "skills": [
-    "Accessibility",
-    "Git",
-    "Node.js",
-    "REST APIs"
-   ],
-   "postedMinutesAgo": 6095,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-040",
-   "title": "Junior QA Automation Engineer",
-   "company": "Indigo Commerce",
-   "department": "Engineering",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    10,
-    16
-   ],
-   "stipendK": null,
-   "skills": [
-    "Testing",
-    "CSS",
-    "JavaScript",
-    "Git"
-   ],
-   "postedMinutesAgo": 180,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-041",
-   "title": "Frontend Developer Intern",
-   "company": "Tidewater Soft",
-   "department": "Engineering",
-   "location": "Noida",
-   "type": "Internship",
-   "level": "Intern",
-   "salaryLPA": null,
-   "stipendK": 15,
-   "skills": [
-    "Git",
-    "REST APIs",
-    "JavaScript",
-    "Node.js"
-   ],
-   "postedMinutesAgo": 1268,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-042",
-   "title": "Backend Developer Intern",
-   "company": "Vertex Health",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Internship",
-   "level": "Intern",
-   "salaryLPA": null,
-   "stipendK": 15,
-   "skills": [
-    "Testing",
-    "HTML",
-    "REST APIs",
-    "CSS"
-   ],
-   "postedMinutesAgo": 5286,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-043",
-   "title": "Junior Full Stack Developer",
-   "company": "Quarkbyte",
-   "department": "Engineering",
-   "location": "Gurugram",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    6,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "React",
-    "JavaScript",
-    "TypeScript",
-    "Testing"
-   ],
-   "postedMinutesAgo": 481,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-044",
-   "title": "Associate DevOps Engineer",
-   "company": "Northwind Labs",
-   "department": "Engineering",
-   "location": "Gurugram",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "React",
-    "HTML",
-    "TypeScript",
-    "Node.js"
-   ],
-   "postedMinutesAgo": 775,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-045",
-   "title": "Product Designer",
-   "company": "Cobalt Systems",
-   "department": "Design",
-   "location": "Bengaluru",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    3,
-    6
-   ],
-   "stipendK": null,
-   "skills": [
-    "Design Systems",
-    "Figma",
-    "Prototyping",
-    "User Research"
-   ],
-   "postedMinutesAgo": 1217,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-046",
-   "title": "Junior ML Engineer",
-   "company": "Pixelforge",
-   "department": "Data",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    3,
-    5
-   ],
-   "stipendK": null,
-   "skills": [
-    "Statistics",
-    "Pandas",
-    "Tableau",
-    "Python"
-   ],
-   "postedMinutesAgo": 159,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-047",
-   "title": "Associate Product Manager",
-   "company": "Nimbus Cloud",
-   "department": "Product",
-   "location": "Bengaluru",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    6,
-    12
-   ],
-   "stipendK": null,
-   "skills": [
-    "Analytics",
-    "Roadmapping",
-    "Communication",
-    "SQL"
-   ],
-   "postedMinutesAgo": 798,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-048",
-   "title": "Data Analyst",
-   "company": "Northwind Labs",
-   "department": "Data",
-   "location": "Noida",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    3,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "Pandas",
-    "Machine Learning",
-    "Python",
-    "Statistics"
-   ],
-   "postedMinutesAgo": 773,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-049",
-   "title": "React Developer",
-   "company": "Brightpath",
-   "department": "Engineering",
-   "location": "Gurugram",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    8,
-    10
-   ],
-   "stipendK": null,
-   "skills": [
-    "React",
-    "JavaScript",
-    "Accessibility",
-    "Testing"
-   ],
-   "postedMinutesAgo": 18,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-050",
-   "title": "Backend Developer",
-   "company": "Vertex Health",
-   "department": "Engineering",
-   "location": "Gurugram",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    4,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "JavaScript",
-    "Git",
-    "TypeScript",
-    "Node.js"
-   ],
-   "postedMinutesAgo": 281,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-051",
-   "title": "Junior QA Automation Engineer",
-   "company": "Zenith Logistics",
-   "department": "Engineering",
-   "location": "Pune",
-   "type": "Contract",
-   "level": "Junior",
-   "salaryLPA": [
-    6,
-    8
-   ],
-   "stipendK": null,
-   "skills": [
-    "CSS",
-    "Accessibility",
-    "REST APIs",
-    "TypeScript"
-   ],
-   "postedMinutesAgo": 757,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-052",
-   "title": "Associate Product Manager",
-   "company": "Cobalt Systems",
-   "department": "Product",
-   "location": "Gurugram",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    10,
-    13
-   ],
-   "stipendK": null,
-   "skills": [
-    "Communication",
-    "User Research",
-    "Roadmapping",
-    "SQL"
-   ],
-   "postedMinutesAgo": 169,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-053",
-   "title": "UX Researcher",
-   "company": "Vertex Health",
-   "department": "Design",
-   "location": "Gurugram",
-   "type": "Full-time",
-   "level": "Mid",
-   "salaryLPA": [
-    6,
-    10
-   ],
-   "stipendK": null,
-   "skills": [
-    "Design Systems",
-    "Prototyping",
-    "User Research",
-    "Figma"
-   ],
-   "postedMinutesAgo": 365,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-054",
-   "title": "UX Researcher Intern",
-   "company": "Lumen Analytics",
-   "department": "Design",
-   "location": "Noida",
-   "type": "Internship",
-   "level": "Intern",
-   "salaryLPA": null,
-   "stipendK": 25,
-   "skills": [
-    "Accessibility",
-    "Prototyping",
-    "Figma",
-    "Design Systems"
-   ],
-   "postedMinutesAgo": 103,
-   "summary": "Join the design team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-055",
-   "title": "Associate ML Engineer",
-   "company": "Cobalt Systems",
-   "department": "Data",
-   "location": "Pune",
-   "type": "Contract",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    9
-   ],
-   "stipendK": null,
-   "skills": [
-    "Pandas",
-    "SQL",
-    "Statistics",
-    "Python"
-   ],
-   "postedMinutesAgo": 688,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-056",
-   "title": "DevOps Engineer",
-   "company": "Pixelforge",
-   "department": "Engineering",
-   "location": "Bengaluru",
-   "type": "Contract",
-   "level": "Mid",
-   "salaryLPA": [
-    5,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "Git",
-    "REST APIs",
-    "Testing",
-    "JavaScript"
-   ],
-   "postedMinutesAgo": 981,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-057",
-   "title": "Full Stack Developer Intern",
-   "company": "Pixelforge",
-   "department": "Engineering",
-   "location": "Mumbai",
-   "type": "Internship",
-   "level": "Intern",
-   "salaryLPA": null,
-   "stipendK": 15,
-   "skills": [
-    "REST APIs",
-    "HTML",
-    "JavaScript",
-    "Accessibility"
-   ],
-   "postedMinutesAgo": 2055,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-058",
-   "title": "Associate Product Manager",
-   "company": "Orbit Payments",
-   "department": "Product",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    10,
-    14
-   ],
-   "stipendK": null,
-   "skills": [
-    "User Research",
-    "Roadmapping",
-    "Communication",
-    "SQL"
-   ],
-   "postedMinutesAgo": 1254,
-   "summary": "Join the product team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-059",
-   "title": "Junior Backend Developer",
-   "company": "Saffron Tech",
-   "department": "Engineering",
-   "location": "Noida",
-   "type": "Full-time",
-   "level": "Junior",
-   "salaryLPA": [
-    3,
-    7
-   ],
-   "stipendK": null,
-   "skills": [
-    "Node.js",
-    "TypeScript",
-    "REST APIs",
-    "React"
-   ],
-   "postedMinutesAgo": 65,
-   "summary": "Join the engineering team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  },
-  {
-   "id": "job-060",
-   "title": "Associate ML Engineer",
-   "company": "Saffron Tech",
-   "department": "Data",
-   "location": "Hyderabad",
-   "type": "Full-time",
-   "level": "Associate",
-   "salaryLPA": [
-    3,
-    6
-   ],
-   "stipendK": null,
-   "skills": [
-    "Tableau",
-    "Machine Learning",
-    "Python",
-    "SQL"
-   ],
-   "postedMinutesAgo": 63,
-   "summary": "Join the data team to build and ship features used by thousands of users. You will work closely with designers and engineers, own tasks end to end, and grow through regular code and design reviews."
-  }
- ]
+  "jobs": [
+    {
+      "id": "hl-001",
+      "title": "ML Engineer",
+      "company": "Nimbus Health",
+      "department": "Data",
+      "location": "Noida",
+      "type": "Contract",
+      "level": "Mid",
+      "salaryLPA": [
+        14,
+        19
+      ],
+      "stipendK": null,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "MLOps",
+        "Kubernetes"
+      ],
+      "postedMinutesAgo": 583,
+      "summary": "Nimbus Health builds teleconsults and e-pharmacy. In this role you'll take recommendation models for Nimbus Health from notebook to production serving. The role is based in Noida, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-002",
+      "title": "Site Reliability Engineer",
+      "company": "Pehchaan ID",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        20,
+        23
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "Prometheus",
+        "GCP"
+      ],
+      "postedMinutesAgo": 4863,
+      "summary": "Pehchaan ID builds KYC and identity verification. In this role you'll keep Pehchaan ID up through festive-season traffic spikes and lead the on-call rotation. The role is based in Mumbai, hybrid three days a week. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-003",
+      "title": "Product Management Intern",
+      "company": "Swadesh Logistics",
+      "department": "Product",
+      "location": "Hyderabad",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 20,
+      "skills": [
+        "Research",
+        "Excel",
+        "Wireframing",
+        "Communication"
+      ],
+      "postedMinutesAgo": 4,
+      "summary": "Swadesh Logistics builds B2B freight tracking. In this role you'll support PMs at Swadesh Logistics on discovery, specs and launch checklists. The role is based in Hyderabad, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-004",
+      "title": "Backend Engineer (Go)",
+      "company": "Nimbus Health",
+      "department": "Engineering",
+      "location": "Noida",
+      "type": "Contract",
+      "level": "Lead",
+      "salaryLPA": [
+        43,
+        48
+      ],
+      "stipendK": null,
+      "skills": [
+        "Go",
+        "gRPC",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "postedMinutesAgo": 283,
+      "summary": "Nimbus Health builds teleconsults and e-pharmacy. In this role you'll scale the event pipeline powering Nimbus Health to millions of daily transactions. The role is based in Noida, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-005",
+      "title": "Backend Engineer (Go)",
+      "company": "Tiffinly",
+      "department": "Engineering",
+      "location": "Remote",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        57,
+        60
+      ],
+      "stipendK": null,
+      "skills": [
+        "Go",
+        "gRPC",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "postedMinutesAgo": 3936,
+      "summary": "Tiffinly builds home-cooked meal subscriptions. In this role you'll scale the event pipeline powering Tiffinly to millions of daily transactions. The role is fully remote across India. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-006",
+      "title": "Security Engineer",
+      "company": "Sangam CRM",
+      "department": "Engineering",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        26,
+        30
+      ],
+      "stipendK": null,
+      "skills": [
+        "AppSec",
+        "Python",
+        "AWS",
+        "Threat Modeling"
+      ],
+      "postedMinutesAgo": 6197,
+      "summary": "Sangam CRM builds WhatsApp-first CRM for SMBs. In this role you'll harden Sangam CRM against fraud and account takeover, working closely with the payments team. The role is based in Hyderabad, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-007",
+      "title": "Product Management Intern",
+      "company": "Rozgar Hub",
+      "department": "Product",
+      "location": "Pune",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 60,
+      "skills": [
+        "Research",
+        "Excel",
+        "Wireframing",
+        "Communication"
+      ],
+      "postedMinutesAgo": 759,
+      "summary": "Rozgar Hub builds blue-collar hiring. In this role you'll support PMs at Rozgar Hub on discovery, specs and launch checklists. The role is based in Pune, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-008",
+      "title": "Product Management Intern",
+      "company": "Kiranakart",
+      "department": "Product",
+      "location": "Pune",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 25,
+      "skills": [
+        "Research",
+        "Excel",
+        "Wireframing",
+        "Communication"
+      ],
+      "postedMinutesAgo": 2141,
+      "summary": "Kiranakart builds 10-minute grocery delivery. In this role you'll support PMs at Kiranakart on discovery, specs and launch checklists. The role is based in Pune, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-009",
+      "title": "Data Analyst",
+      "company": "Zameen Data",
+      "department": "Data",
+      "location": "Noida",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        8,
+        11
+      ],
+      "stipendK": null,
+      "skills": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Excel"
+      ],
+      "postedMinutesAgo": 6532,
+      "summary": "Zameen Data builds agritech crop analytics. In this role you'll turn funnel and retention data at Zameen Data into weekly decisions for the growth team. The role is based in Noida, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-010",
+      "title": "QA Automation Engineer",
+      "company": "Sangam CRM",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        49,
+        53
+      ],
+      "stipendK": null,
+      "skills": [
+        "Playwright",
+        "TypeScript",
+        "CI/CD",
+        "API Testing"
+      ],
+      "postedMinutesAgo": 4779,
+      "summary": "Sangam CRM builds WhatsApp-first CRM for SMBs. In this role you'll build the automated test suite for Sangam CRM and cut release regressions in half. The role is based in Gurugram, hybrid three days a week. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-011",
+      "title": "Backend Engineering Intern",
+      "company": "Sangam CRM",
+      "department": "Engineering",
+      "location": "Hyderabad",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 15,
+      "skills": [
+        "Python",
+        "Django",
+        "SQL",
+        "Git"
+      ],
+      "postedMinutesAgo": 968,
+      "summary": "Sangam CRM builds WhatsApp-first CRM for SMBs. In this role you'll help build internal services at Sangam CRM with a dedicated mentor and weekly code reviews. The role is based in Hyderabad, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-012",
+      "title": "Data Engineer",
+      "company": "Kiranakart",
+      "department": "Data",
+      "location": "Remote",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        18,
+        26
+      ],
+      "stipendK": null,
+      "skills": [
+        "Spark",
+        "Airflow",
+        "SQL",
+        "BigQuery"
+      ],
+      "postedMinutesAgo": 2107,
+      "summary": "Kiranakart builds 10-minute grocery delivery. In this role you'll own the batch and streaming pipelines that feed analytics for Kiranakart. The role is fully remote across India. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-013",
+      "title": "Data Analyst",
+      "company": "Kalakriti",
+      "department": "Data",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        9,
+        11
+      ],
+      "stipendK": null,
+      "skills": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Excel"
+      ],
+      "postedMinutesAgo": 332,
+      "summary": "Kalakriti builds marketplace for Indian artisans. In this role you'll turn funnel and retention data at Kalakriti into weekly decisions for the growth team. The role is based in Hyderabad, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-014",
+      "title": "Senior Product Designer",
+      "company": "Zameen Data",
+      "department": "Design",
+      "location": "Noida",
+      "type": "Contract",
+      "level": "Senior",
+      "salaryLPA": [
+        40,
+        44
+      ],
+      "stipendK": null,
+      "skills": [
+        "Figma",
+        "Interaction Design",
+        "Design Systems",
+        "Accessibility"
+      ],
+      "postedMinutesAgo": 930,
+      "summary": "Zameen Data builds agritech crop analytics. In this role you'll set the design direction for Zameen Data and partner with PMs on the next two big launches. The role is based in Noida, hybrid three days a week. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-015",
+      "title": "Data Analyst Intern",
+      "company": "Kiranakart",
+      "department": "Data",
+      "location": "Bengaluru",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 20,
+      "skills": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Statistics"
+      ],
+      "postedMinutesAgo": 11,
+      "summary": "Kiranakart builds 10-minute grocery delivery. In this role you'll support the analytics team at Kiranakart with dashboards and ad-hoc deep dives. The role is based in Bengaluru, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-016",
+      "title": "Technical Product Manager",
+      "company": "UrjaGrid",
+      "department": "Product",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        46,
+        56
+      ],
+      "stipendK": null,
+      "skills": [
+        "APIs",
+        "System Design",
+        "Roadmapping",
+        "SQL"
+      ],
+      "postedMinutesAgo": 74,
+      "summary": "UrjaGrid builds EV charging networks. In this role you'll own the developer-facing APIs of UrjaGrid and the partner integration experience. The role is based in Bengaluru, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-017",
+      "title": "Android Engineer",
+      "company": "Kosh Capital",
+      "department": "Engineering",
+      "location": "Remote",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        7,
+        10
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Coroutines",
+        "Firebase"
+      ],
+      "postedMinutesAgo": 782,
+      "summary": "Kosh Capital builds mutual fund investing. In this role you'll own the Android app for Kosh Capital, used mostly on budget phones over patchy networks. The role is fully remote across India. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-018",
+      "title": "Senior Frontend Engineer",
+      "company": "Paisaflow",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        42,
+        45
+      ],
+      "stipendK": null,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "GraphQL"
+      ],
+      "postedMinutesAgo": 8260,
+      "summary": "Paisaflow builds payments infrastructure for small merchants. In this role you'll lead the web platform for Paisaflow, drive the design-system roadmap and mentor two mid-level engineers. The role is based in Mumbai, hybrid three days a week. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-019",
+      "title": "Technical Product Manager",
+      "company": "Nimbus Health",
+      "department": "Product",
+      "location": "Pune",
+      "type": "Contract",
+      "level": "Lead",
+      "salaryLPA": [
+        49,
+        52
+      ],
+      "stipendK": null,
+      "skills": [
+        "APIs",
+        "System Design",
+        "Roadmapping",
+        "SQL"
+      ],
+      "postedMinutesAgo": 2443,
+      "summary": "Nimbus Health builds teleconsults and e-pharmacy. In this role you'll own the developer-facing APIs of Nimbus Health and the partner integration experience. The role is based in Pune, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-020",
+      "title": "Android Engineer",
+      "company": "Chaiwala Cloud",
+      "department": "Engineering",
+      "location": "Noida",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        18,
+        28
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Coroutines",
+        "Firebase"
+      ],
+      "postedMinutesAgo": 6120,
+      "summary": "Chaiwala Cloud builds managed Kubernetes for Indian startups. In this role you'll own the Android app for Chaiwala Cloud, used mostly on budget phones over patchy networks. The role is based in Noida, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-021",
+      "title": "Data Analyst Intern",
+      "company": "Kalakriti",
+      "department": "Data",
+      "location": "Mumbai",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 15,
+      "skills": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Statistics"
+      ],
+      "postedMinutesAgo": 4583,
+      "summary": "Kalakriti builds marketplace for Indian artisans. In this role you'll support the analytics team at Kalakriti with dashboards and ad-hoc deep dives. The role is based in Mumbai, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-022",
+      "title": "Frontend Engineering Intern",
+      "company": "Chaiwala Cloud",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 20,
+      "skills": [
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS"
+      ],
+      "postedMinutesAgo": 3628,
+      "summary": "Chaiwala Cloud builds managed Kubernetes for Indian startups. In this role you'll work alongside the web team at Chaiwala Cloud, shipping real UI to production within your first month. The role is based in Gurugram, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-023",
+      "title": "Associate Product Manager",
+      "company": "Ledgerline",
+      "department": "Product",
+      "location": "Gurugram",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        9,
+        11
+      ],
+      "stipendK": null,
+      "skills": [
+        "SQL",
+        "Wireframing",
+        "User Research",
+        "Jira"
+      ],
+      "postedMinutesAgo": 6341,
+      "summary": "Ledgerline builds GST-ready accounting software. In this role you'll learn the craft at Ledgerline by owning a small, measurable surface end to end. The role is based in Gurugram, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-024",
+      "title": "Full Stack Developer",
+      "company": "Dhanvi Fintech",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        13,
+        23
+      ],
+      "stipendK": null,
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Docker"
+      ],
+      "postedMinutesAgo": 4315,
+      "summary": "Dhanvi Fintech builds UPI-based expense cards. In this role you'll ship end-to-end features for Dhanvi Fintech, from schema to pixel, in two-week cycles. The role is based in Gurugram, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-025",
+      "title": "UX Researcher",
+      "company": "Kalakriti",
+      "department": "Design",
+      "location": "Pune",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        41,
+        44
+      ],
+      "stipendK": null,
+      "skills": [
+        "User Research",
+        "Usability Testing",
+        "Surveys",
+        "Synthesis"
+      ],
+      "postedMinutesAgo": 6514,
+      "summary": "Kalakriti builds marketplace for Indian artisans. In this role you'll run field research for Kalakriti across Tier-2 and Tier-3 cities. The role is based in Pune, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-026",
+      "title": "Site Reliability Engineer",
+      "company": "Bharatsure",
+      "department": "Engineering",
+      "location": "Bengaluru",
+      "type": "Contract",
+      "level": "Mid",
+      "salaryLPA": [
+        10,
+        20
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "Prometheus",
+        "GCP"
+      ],
+      "postedMinutesAgo": 3334,
+      "summary": "Bharatsure builds embedded insurance APIs. In this role you'll keep Bharatsure up through festive-season traffic spikes and lead the on-call rotation. The role is based in Bengaluru, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-027",
+      "title": "Backend Engineer",
+      "company": "Pehchaan ID",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        43,
+        46
+      ],
+      "stipendK": null,
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "postedMinutesAgo": 6490,
+      "summary": "Pehchaan ID builds KYC and identity verification. In this role you'll design the APIs behind Pehchaan ID, with a focus on idempotent payments flows and p99 latency under 150ms. The role is based in Mumbai, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-028",
+      "title": "Senior Product Designer",
+      "company": "Sangam CRM",
+      "department": "Design",
+      "location": "Noida",
+      "type": "Contract",
+      "level": "Senior",
+      "salaryLPA": [
+        33,
+        41
+      ],
+      "stipendK": null,
+      "skills": [
+        "Figma",
+        "Interaction Design",
+        "Design Systems",
+        "Accessibility"
+      ],
+      "postedMinutesAgo": 6062,
+      "summary": "Sangam CRM builds WhatsApp-first CRM for SMBs. In this role you'll set the design direction for Sangam CRM and partner with PMs on the next two big launches. The role is based in Noida, hybrid three days a week. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-029",
+      "title": "Backend Engineer",
+      "company": "Hisaab",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "type": "Contract",
+      "level": "Mid",
+      "salaryLPA": [
+        13,
+        16
+      ],
+      "stipendK": null,
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "postedMinutesAgo": 353,
+      "summary": "Hisaab builds credit lines for kirana stores. In this role you'll design the APIs behind Hisaab, with a focus on idempotent payments flows and p99 latency under 150ms. The role is based in Mumbai, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-030",
+      "title": "Senior Product Manager",
+      "company": "Kosh Capital",
+      "department": "Product",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        35,
+        43
+      ],
+      "stipendK": null,
+      "skills": [
+        "Product Strategy",
+        "Analytics",
+        "Fintech",
+        "Roadmapping"
+      ],
+      "postedMinutesAgo": 5464,
+      "summary": "Kosh Capital builds mutual fund investing. In this role you'll lead a cross-functional pod at Kosh Capital focused on monetisation. The role is based in Bengaluru, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-031",
+      "title": "Backend Engineering Intern",
+      "company": "Raahi Mobility",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 30,
+      "skills": [
+        "Python",
+        "Django",
+        "SQL",
+        "Git"
+      ],
+      "postedMinutesAgo": 9620,
+      "summary": "Raahi Mobility builds intercity bus booking. In this role you'll help build internal services at Raahi Mobility with a dedicated mentor and weekly code reviews. The role is based in Gurugram, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-032",
+      "title": "Senior Data Scientist",
+      "company": "Hisaab",
+      "department": "Data",
+      "location": "Pune",
+      "type": "Contract",
+      "level": "Senior",
+      "salaryLPA": [
+        32,
+        38
+      ],
+      "stipendK": null,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "SQL",
+        "Experimentation"
+      ],
+      "postedMinutesAgo": 937,
+      "summary": "Hisaab builds credit lines for kirana stores. In this role you'll build pricing and risk models for Hisaab and own the experimentation framework. The role is based in Pune, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-033",
+      "title": "Senior Product Designer",
+      "company": "Bharatsure",
+      "department": "Design",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        27,
+        33
+      ],
+      "stipendK": null,
+      "skills": [
+        "Figma",
+        "Interaction Design",
+        "Design Systems",
+        "Accessibility"
+      ],
+      "postedMinutesAgo": 666,
+      "summary": "Bharatsure builds embedded insurance APIs. In this role you'll set the design direction for Bharatsure and partner with PMs on the next two big launches. The role is based in Bengaluru, hybrid three days a week. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-034",
+      "title": "ML Engineer",
+      "company": "Kosh Capital",
+      "department": "Data",
+      "location": "Noida",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        17,
+        22
+      ],
+      "stipendK": null,
+      "skills": [
+        "Python",
+        "PyTorch",
+        "MLOps",
+        "Kubernetes"
+      ],
+      "postedMinutesAgo": 5491,
+      "summary": "Kosh Capital builds mutual fund investing. In this role you'll take recommendation models for Kosh Capital from notebook to production serving. The role is based in Noida, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-035",
+      "title": "Senior Product Designer",
+      "company": "Kosh Capital",
+      "department": "Design",
+      "location": "Pune",
+      "type": "Contract",
+      "level": "Senior",
+      "salaryLPA": [
+        28,
+        34
+      ],
+      "stipendK": null,
+      "skills": [
+        "Figma",
+        "Interaction Design",
+        "Design Systems",
+        "Accessibility"
+      ],
+      "postedMinutesAgo": 0,
+      "summary": "Kosh Capital builds mutual fund investing. In this role you'll set the design direction for Kosh Capital and partner with PMs on the next two big launches. The role is based in Pune, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-036",
+      "title": "Full Stack Developer",
+      "company": "Tiffinly",
+      "department": "Engineering",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        9,
+        12
+      ],
+      "stipendK": null,
+      "skills": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Docker"
+      ],
+      "postedMinutesAgo": 9980,
+      "summary": "Tiffinly builds home-cooked meal subscriptions. In this role you'll ship end-to-end features for Tiffinly, from schema to pixel, in two-week cycles. The role is based in Hyderabad, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-037",
+      "title": "Data Analyst Intern",
+      "company": "Swadesh Logistics",
+      "department": "Data",
+      "location": "Hyderabad",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 15,
+      "skills": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Statistics"
+      ],
+      "postedMinutesAgo": 2957,
+      "summary": "Swadesh Logistics builds B2B freight tracking. In this role you'll support the analytics team at Swadesh Logistics with dashboards and ad-hoc deep dives. The role is based in Hyderabad, hybrid three days a week. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-038",
+      "title": "UX Researcher",
+      "company": "Vidyarthi Labs",
+      "department": "Design",
+      "location": "Bengaluru",
+      "type": "Contract",
+      "level": "Junior",
+      "salaryLPA": [
+        7,
+        10
+      ],
+      "stipendK": null,
+      "skills": [
+        "User Research",
+        "Usability Testing",
+        "Surveys",
+        "Synthesis"
+      ],
+      "postedMinutesAgo": 2299,
+      "summary": "Vidyarthi Labs builds exam prep for Tier-2 cities. In this role you'll run field research for Vidyarthi Labs across Tier-2 and Tier-3 cities. The role is based in Bengaluru, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-039",
+      "title": "Analytics Engineer",
+      "company": "Swadesh Logistics",
+      "department": "Data",
+      "location": "Remote",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        56,
+        59
+      ],
+      "stipendK": null,
+      "skills": [
+        "dbt",
+        "SQL",
+        "Snowflake",
+        "Looker"
+      ],
+      "postedMinutesAgo": 4186,
+      "summary": "Swadesh Logistics builds B2B freight tracking. In this role you'll model clean, trusted metrics for Swadesh Logistics so every team reads the same numbers. The role is fully remote across India. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-040",
+      "title": "Associate Product Manager",
+      "company": "Kiranakart",
+      "department": "Product",
+      "location": "Remote",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        5,
+        9
+      ],
+      "stipendK": null,
+      "skills": [
+        "SQL",
+        "Wireframing",
+        "User Research",
+        "Jira"
+      ],
+      "postedMinutesAgo": 1372,
+      "summary": "Kiranakart builds 10-minute grocery delivery. In this role you'll learn the craft at Kiranakart by owning a small, measurable surface end to end. The role is fully remote across India. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-041",
+      "title": "Security Engineer",
+      "company": "Nimbus Health",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        26,
+        36
+      ],
+      "stipendK": null,
+      "skills": [
+        "AppSec",
+        "Python",
+        "AWS",
+        "Threat Modeling"
+      ],
+      "postedMinutesAgo": 38,
+      "summary": "Nimbus Health builds teleconsults and e-pharmacy. In this role you'll harden Nimbus Health against fraud and account takeover, working closely with the payments team. The role is based in Gurugram, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-042",
+      "title": "Brand Designer",
+      "company": "Swadesh Logistics",
+      "department": "Design",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        14,
+        22
+      ],
+      "stipendK": null,
+      "skills": [
+        "Illustrator",
+        "Figma",
+        "Motion Design",
+        "Typography"
+      ],
+      "postedMinutesAgo": 4095,
+      "summary": "Swadesh Logistics builds B2B freight tracking. In this role you'll shape the visual identity of Swadesh Logistics across app, campaigns and packaging. The role is based in Hyderabad, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-043",
+      "title": "Product Management Intern",
+      "company": "Chaiwala Cloud",
+      "department": "Product",
+      "location": "Noida",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 25,
+      "skills": [
+        "Research",
+        "Excel",
+        "Wireframing",
+        "Communication"
+      ],
+      "postedMinutesAgo": 8710,
+      "summary": "Chaiwala Cloud builds managed Kubernetes for Indian startups. In this role you'll support PMs at Chaiwala Cloud on discovery, specs and launch checklists. The role is based in Noida, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-044",
+      "title": "Site Reliability Engineer",
+      "company": "Zameen Data",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        14,
+        20
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "Prometheus",
+        "GCP"
+      ],
+      "postedMinutesAgo": 171,
+      "summary": "Zameen Data builds agritech crop analytics. In this role you'll keep Zameen Data up through festive-season traffic spikes and lead the on-call rotation. The role is based in Gurugram, hybrid three days a week. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-045",
+      "title": "Data Analyst",
+      "company": "Chaiwala Cloud",
+      "department": "Data",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        9,
+        13
+      ],
+      "stipendK": null,
+      "skills": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Excel"
+      ],
+      "postedMinutesAgo": 4240,
+      "summary": "Chaiwala Cloud builds managed Kubernetes for Indian startups. In this role you'll turn funnel and retention data at Chaiwala Cloud into weekly decisions for the growth team. The role is based in Bengaluru, hybrid three days a week. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-046",
+      "title": "Data Engineer",
+      "company": "Pehchaan ID",
+      "department": "Data",
+      "location": "Noida",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        46,
+        54
+      ],
+      "stipendK": null,
+      "skills": [
+        "Spark",
+        "Airflow",
+        "SQL",
+        "BigQuery"
+      ],
+      "postedMinutesAgo": 149,
+      "summary": "Pehchaan ID builds KYC and identity verification. In this role you'll own the batch and streaming pipelines that feed analytics for Pehchaan ID. The role is based in Noida, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-047",
+      "title": "QA Automation Engineer",
+      "company": "Vidyarthi Labs",
+      "department": "Engineering",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        20,
+        30
+      ],
+      "stipendK": null,
+      "skills": [
+        "Playwright",
+        "TypeScript",
+        "CI/CD",
+        "API Testing"
+      ],
+      "postedMinutesAgo": 96,
+      "summary": "Vidyarthi Labs builds exam prep for Tier-2 cities. In this role you'll build the automated test suite for Vidyarthi Labs and cut release regressions in half. The role is based in Bengaluru, hybrid three days a week. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-048",
+      "title": "Data Engineer",
+      "company": "Tiffinly",
+      "department": "Data",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        13,
+        17
+      ],
+      "stipendK": null,
+      "skills": [
+        "Spark",
+        "Airflow",
+        "SQL",
+        "BigQuery"
+      ],
+      "postedMinutesAgo": 23,
+      "summary": "Tiffinly builds home-cooked meal subscriptions. In this role you'll own the batch and streaming pipelines that feed analytics for Tiffinly. The role is based in Mumbai, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-049",
+      "title": "Product Manager",
+      "company": "Kiranakart",
+      "department": "Product",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        19,
+        22
+      ],
+      "stipendK": null,
+      "skills": [
+        "Roadmapping",
+        "SQL",
+        "A/B Testing",
+        "Stakeholder Management"
+      ],
+      "postedMinutesAgo": 52,
+      "summary": "Kiranakart builds 10-minute grocery delivery. In this role you'll own the onboarding and activation funnel at Kiranakart. The role is based in Mumbai, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-050",
+      "title": "Design Intern",
+      "company": "UrjaGrid",
+      "department": "Design",
+      "location": "Remote",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 30,
+      "skills": [
+        "Figma",
+        "Visual Design",
+        "Prototyping",
+        "Illustration"
+      ],
+      "postedMinutesAgo": 2534,
+      "summary": "UrjaGrid builds EV charging networks. In this role you'll work on real product surfaces at UrjaGrid with a senior designer as your mentor. The role is fully remote across India. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-051",
+      "title": "QA Automation Engineer",
+      "company": "Zameen Data",
+      "department": "Engineering",
+      "location": "Remote",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        44,
+        54
+      ],
+      "stipendK": null,
+      "skills": [
+        "Playwright",
+        "TypeScript",
+        "CI/CD",
+        "API Testing"
+      ],
+      "postedMinutesAgo": 2896,
+      "summary": "Zameen Data builds agritech crop analytics. In this role you'll build the automated test suite for Zameen Data and cut release regressions in half. The role is fully remote across India. You'll report to the head of the function and have a say in what gets built next."
+    },
+    {
+      "id": "hl-052",
+      "title": "Product Manager",
+      "company": "Ledgerline",
+      "department": "Product",
+      "location": "Pune",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        65,
+        75
+      ],
+      "stipendK": null,
+      "skills": [
+        "Roadmapping",
+        "SQL",
+        "A/B Testing",
+        "Stakeholder Management"
+      ],
+      "postedMinutesAgo": 121,
+      "summary": "Ledgerline builds GST-ready accounting software. In this role you'll own the onboarding and activation funnel at Ledgerline. The role is based in Pune, hybrid three days a week. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-053",
+      "title": "Platform Engineer",
+      "company": "Kiranakart",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        27,
+        33
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kubernetes",
+        "Go",
+        "Helm",
+        "AWS"
+      ],
+      "postedMinutesAgo": 396,
+      "summary": "Kiranakart builds 10-minute grocery delivery. In this role you'll build the internal developer platform for Kiranakart so product teams can deploy in minutes. The role is based in Gurugram, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-054",
+      "title": "Platform Engineer",
+      "company": "Kalakriti",
+      "department": "Engineering",
+      "location": "Pune",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        43,
+        48
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kubernetes",
+        "Go",
+        "Helm",
+        "AWS"
+      ],
+      "postedMinutesAgo": 1118,
+      "summary": "Kalakriti builds marketplace for Indian artisans. In this role you'll build the internal developer platform for Kalakriti so product teams can deploy in minutes. The role is based in Pune, hybrid three days a week. We're post Series A, growing fast, and hiring people who like ambiguity."
+    },
+    {
+      "id": "hl-055",
+      "title": "Backend Engineering Intern",
+      "company": "Kalakriti",
+      "department": "Engineering",
+      "location": "Remote",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 50,
+      "skills": [
+        "Python",
+        "Django",
+        "SQL",
+        "Git"
+      ],
+      "postedMinutesAgo": 1733,
+      "summary": "Kalakriti builds marketplace for Indian artisans. In this role you'll help build internal services at Kalakriti with a dedicated mentor and weekly code reviews. The role is fully remote across India. Flexible hours, a learning budget and a team that writes things down."
+    },
+    {
+      "id": "hl-056",
+      "title": "Platform Engineer",
+      "company": "Vidyarthi Labs",
+      "department": "Engineering",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "level": "Senior",
+      "salaryLPA": [
+        39,
+        45
+      ],
+      "stipendK": null,
+      "skills": [
+        "Kubernetes",
+        "Go",
+        "Helm",
+        "AWS"
+      ],
+      "postedMinutesAgo": 9140,
+      "summary": "Vidyarthi Labs builds exam prep for Tier-2 cities. In this role you'll build the internal developer platform for Vidyarthi Labs so product teams can deploy in minutes. The role is based in Hyderabad, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-057",
+      "title": "Brand Designer",
+      "company": "Rozgar Hub",
+      "department": "Design",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Mid",
+      "salaryLPA": [
+        11,
+        21
+      ],
+      "stipendK": null,
+      "skills": [
+        "Illustrator",
+        "Figma",
+        "Motion Design",
+        "Typography"
+      ],
+      "postedMinutesAgo": 2110,
+      "summary": "Rozgar Hub builds blue-collar hiring. In this role you'll shape the visual identity of Rozgar Hub across app, campaigns and packaging. The role is based in Mumbai, hybrid three days a week. The team ships every week and cares about craft, clarity and kind code reviews."
+    },
+    {
+      "id": "hl-058",
+      "title": "Backend Engineer (Go)",
+      "company": "Bharatsure",
+      "department": "Engineering",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "level": "Junior",
+      "salaryLPA": [
+        9,
+        11
+      ],
+      "stipendK": null,
+      "skills": [
+        "Go",
+        "gRPC",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "postedMinutesAgo": 4041,
+      "summary": "Bharatsure builds embedded insurance APIs. In this role you'll scale the event pipeline powering Bharatsure to millions of daily transactions. The role is based in Bengaluru, hybrid three days a week. Expect a weekly demo culture, quick decisions and very little process for its own sake."
+    },
+    {
+      "id": "hl-059",
+      "title": "Backend Engineer",
+      "company": "Kosh Capital",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "type": "Full-time",
+      "level": "Lead",
+      "salaryLPA": [
+        62,
+        66
+      ],
+      "stipendK": null,
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "AWS"
+      ],
+      "postedMinutesAgo": 6049,
+      "summary": "Kosh Capital builds mutual fund investing. In this role you'll design the APIs behind Kosh Capital, with a focus on idempotent payments flows and p99 latency under 150ms. The role is based in Mumbai, hybrid three days a week. You'll work in a small team with real ownership and a short path to production."
+    },
+    {
+      "id": "hl-060",
+      "title": "Design Intern",
+      "company": "Hisaab",
+      "department": "Design",
+      "location": "Gurugram",
+      "type": "Internship",
+      "level": "Intern",
+      "salaryLPA": null,
+      "stipendK": 40,
+      "skills": [
+        "Figma",
+        "Visual Design",
+        "Prototyping",
+        "Illustration"
+      ],
+      "postedMinutesAgo": 656,
+      "summary": "Hisaab builds credit lines for kirana stores. In this role you'll work on real product surfaces at Hisaab with a senior designer as your mentor. The role is based in Gurugram, hybrid three days a week. Flexible hours, a learning budget and a team that writes things down."
+    }
+  ]
 }
